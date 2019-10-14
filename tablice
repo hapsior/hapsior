@@ -1,0 +1,12 @@
+ int[] tab = new int[10];
+            int licznik = 0;
+            for (int i = 10; i <tab.Length; i+=10)
+            {
+                tab[licznik++] = i;
+            }
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("tab[{0}] = {1}", i, tab[i]);
+            }
+
+            Console.ReadKey();
